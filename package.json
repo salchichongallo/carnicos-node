@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "name": "carnicos-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/salchichongallo/carnicos-node.git",
+  "author": "Jimmy Murillo <salchichongallo1997@gmail.com>",
+  "license": "MIT"
+}
