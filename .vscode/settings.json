@@ -1,0 +1,30 @@
+{
+  "editor.formatOnSave": true,
+
+  "eslint.autoFixOnSave": true,
+  "prettier.eslintIntegration": true,
+  "eslint.validate": [
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "typescript",
+      "autoFix": true
+    }
+  ],
+  "eslint.options": {
+    "ext": [".js", ".ts"]
+  },
+
+  "search.exclude": {
+    "**/.idea": true,
+    "**/build": true,
+    "**/node_modules": true,
+    "**/yarn-error.log": true,
+    "**/yarn.lock": true
+  },
+
+  // Use the same TypeScript SDK as listed in devDependencies
+  "typescript.tsdk": "node_modules/typescript/lib"
+}
