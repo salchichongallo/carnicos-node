@@ -1,16 +1,16 @@
 import React, { PureComponent } from 'react';
 import { Middle, Title } from '@carnicos/ui';
 
-import MainLayout from 'templates/MainLayout';
+import AppLayout from 'templates/AppLayout';
 
 class NotFound extends PureComponent {
   public render() {
     return (
-      <MainLayout>
+      <AppLayout>
         <Middle as="main">
           <Title>Page not found</Title>
         </Middle>
-      </MainLayout>
+      </AppLayout>
     );
   }
 }

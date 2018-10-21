@@ -8,7 +8,7 @@ const StyledHeader = styled.header`
 
   height: 100px;
 
-  ${Logo} {
+  > ${Logo} {
     margin-left: 10%;
   }
 `;

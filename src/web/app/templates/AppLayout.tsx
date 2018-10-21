@@ -17,7 +17,7 @@ const Template = styled.div`
   min-height: 100%;
 `;
 
-class MainLayout extends PureComponent<Props> {
+class AppLayout extends PureComponent<Props> {
   public render() {
     return (
       <Template>
@@ -29,4 +29,4 @@ class MainLayout extends PureComponent<Props> {
   }
 }
 
-export default MainLayout;
+export default AppLayout;

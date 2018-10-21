@@ -1,10 +1,13 @@
 import 'sanitize.css';
 import '@babel/polyfill';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router } from 'react-router-dom';
+
 import { carnicos } from '@carnicos/ui/theme';
 import { ThemeProvider } from '@carnicos/ui/styled';
+
 import createBrowserHistory from 'history/createBrowserHistory';
 
 import App from './app/App';
