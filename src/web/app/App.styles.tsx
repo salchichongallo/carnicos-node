@@ -1,13 +1,13 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from '@carnicos/ui/styled';
 
 export default createGlobalStyle`
   body {
     box-sizing: border-box;
 
-    color: rgba(0, 0, 0, 0.87);
+    color: ${props => props.theme.textPrimary};
     background: #fff;
 
-    font-family: 'Varela Round', sans-serif;
+    font-family: ${props => props.theme.primaryFont};
     font-size: 16px;
   }
 
