@@ -11,7 +11,7 @@
     "./packages/*"
   ],
   "scripts": {
-    "lint": "eslint --color --ignore-path .gitignore --ext .js,.ts ."
+    "lint": "eslint --color --ignore-path .gitignore --ext .js,.ts,.tsx ."
   },
   "devDependencies": {
     "@types/node": "^10",
