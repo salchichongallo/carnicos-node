@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    /* Basic Options */
+    "jsx": "preserve", // Preserve JSX code.
+
+    /* Module Resolution Options */
+    "moduleResolution": "node", // Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6).
+    "paths": {                  // A series of entries which re-map imports to lookup locations relative to the 'baseUrl'.
+      "components/*": ["./src/web/app/components/*"]
+    }
+  },
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/tsconfig.json"
+}

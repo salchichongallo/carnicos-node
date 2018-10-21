@@ -65,3 +65,6 @@ yarn.lock
 
 # NPM lock file
 package-lock.json
+
+# Build directory
+/build
