@@ -21,6 +21,10 @@
     "ext": [".js", ".ts", ".tsx"]
   },
 
+  "css.validate": false,
+  "scss.validate": false,
+  "prettier.stylelintIntegration": false,
+
   "search.exclude": {
     "**/.idea": true,
     "**/build": true,

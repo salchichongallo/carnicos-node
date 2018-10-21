@@ -11,6 +11,7 @@ export default createGlobalStyle`
     font-size: 16px;
   }
 
+  /* stylelint-disable-next-line selector-max-specificity */
   html,
   body,
   #app {
