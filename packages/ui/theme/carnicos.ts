@@ -12,6 +12,7 @@ export const theme: Theme = {
   textDisabled: 'rgba(0, 0, 0, 0.38)',
 
   border: '#b3b3b3',
+  borderRadius: '3px',
 
   separator: 'rgba(0, 0, 0, 0.12)',
 };

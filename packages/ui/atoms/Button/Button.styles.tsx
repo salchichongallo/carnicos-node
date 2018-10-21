@@ -15,7 +15,7 @@ export const base = css`
   will-change: color, background;
 
   border: none;
-  border-radius: 3px;
+  border-radius: ${props => props.theme.borderRadius};
   background: transparent;
 
   font-family: inherit;

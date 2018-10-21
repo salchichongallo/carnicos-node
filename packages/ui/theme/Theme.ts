@@ -10,6 +10,7 @@ export interface Theme {
   textDisabled: string;
 
   border: string;
+  borderRadius: string;
 
   separator: string;
 }
