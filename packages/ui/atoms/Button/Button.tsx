@@ -9,4 +9,5 @@ const Button = styled.button<Props>`
   ${props => props.outline && styles.outline};
   ${props => props.primary && styles.primary};
 `;
+
 export default Button;
