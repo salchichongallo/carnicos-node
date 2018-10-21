@@ -1,5 +1,5 @@
 {
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
 
   "eslint.autoFixOnSave": true,
   "prettier.eslintIntegration": true,
@@ -11,10 +11,14 @@
     {
       "language": "typescript",
       "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
     }
   ],
   "eslint.options": {
-    "ext": [".js", ".ts"]
+    "ext": [".js", ".ts", ".tsx"]
   },
 
   "search.exclude": {

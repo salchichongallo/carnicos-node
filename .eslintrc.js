@@ -3,9 +3,9 @@ module.exports = {
 
   parser: 'typescript-eslint-parser',
 
-  extends: ['eslint:recommended', 'airbnb-base', 'prettier', 'typescript' ],
+  extends: ['eslint:recommended', 'airbnb', 'prettier', 'prettier/react', 'typescript' ],
 
-  plugins: ['prettier'],
+  plugins: ['prettier', 'react'],
 
   env: {
     es6: true,
@@ -17,6 +17,9 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 6,
     sourceType: 'module',
+    ecmaFeatures: {
+      jsx: true,
+    },
   },
 
   rules: {
@@ -40,6 +43,10 @@ module.exports = {
       },
     ],
 
+    'react/destructuring-assignment': 'off',
+    'react/prefer-stateless-function': 'off',
+    'react/jsx-filename-extension': ['warn', { extensions: ['.tsx'] }],
+
     'typescript/no-var-requires': 'off',
     'typescript/member-ordering': 'off',
     'typescript/no-non-null-assertion': 'off',
@@ -49,11 +56,11 @@ module.exports = {
 
   settings: {
     'import/parsers': {
-      'typescript-eslint-parser': ['.js', '.ts'],
+      'typescript-eslint-parser': ['.js', '.ts', '.tsx'],
     },
     'import/resolver': {
       node: {
-        extensions: ['.js', '.ts'],
+        extensions: ['.js', '.ts', '.tsx'],
       },
     },
   },
