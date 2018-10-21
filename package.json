@@ -6,6 +6,10 @@
   "repository": "https://github.com/salchichongallo/carnicos-node.git",
   "author": "Jimmy Murillo <salchichongallo1997@gmail.com>",
   "license": "MIT",
+  "workspaces": [
+    "./src/*",
+    "./packages/*"
+  ],
   "scripts": {
     "lint": "eslint --color --ignore-path .gitignore --ext .js,.ts ."
   },
