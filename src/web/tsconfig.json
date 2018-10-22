@@ -8,7 +8,8 @@
     "moduleResolution": "node", // Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6).
     "paths": {                  // A series of entries which re-map imports to lookup locations relative to the 'baseUrl'.
       "components/*": ["./src/web/app/components/*"],
-      "templates/*": ["./src/web/app/templates/*"]
+      "templates/*": ["./src/web/app/templates/*"],
+      "user/*": ["./src/web/src/user/*"]
     }
   },
   "$schema": "https://schemastore.azurewebsites.net/schemas/json/tsconfig.json"
