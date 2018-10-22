@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    /* Module Resolution Options */
+    "moduleResolution": "node", // Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6).
+    "paths": {                  // A series of entries which re-map imports to lookup locations relative to the 'baseUrl'.
+      "src/*": ["./src/carnicos/src/*"]
+    }
+  },
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/tsconfig.json"
+}
