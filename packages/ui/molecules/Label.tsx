@@ -12,12 +12,11 @@ export const Wrapper = styled.span`
   margin-bottom: 4px;
 `;
 
-const BaseLabel = styled.label`
-  display: block;
-`;
+type AllProps = React.LabelHTMLAttributes<HTMLLabelElement> & Props;
 
-const Label: React.SFC<Props> = ({ children, ...props }) => (
-  <BaseLabel {...props}>
+const Label: React.SFC<AllProps> = ({ children, ...props }) => (
+  /* eslint-disable-next-line */
+  <label {...props}>
     {React.Children.map(children, child => {
       if (typeof child !== 'string') {
         return child;
@@ -29,9 +28,9 @@ const Label: React.SFC<Props> = ({ children, ...props }) => (
         </Body>
       );
     })}
-  </BaseLabel>
+  </label>
 );
 
 export default styled(Label)`
-  /* stylelint-disable-next-line block-no-empty */
+  display: block;
 `;
