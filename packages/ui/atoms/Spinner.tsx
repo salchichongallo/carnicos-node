@@ -24,8 +24,8 @@ const Spinner = styled.span<Props>`
 
     box-sizing: border-box;
 
-    width: ${calcSize};
-    height: ${calcSize};
+    width: 100%;
+    height: 100%;
 
     content: '';
     animation: ${spin} 2s linear infinite;
